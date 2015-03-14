@@ -37,6 +37,67 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
 
 --- bg:#FFFFFF;
 
+## Animated Lists ##
+
+</br>
+
+> 1. Point 1
+> 2. Point 2
+> 3. Point 3
+
+---
+
+## popover test ##
+
+**Popover**
+  
+<a class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" id='example'>Click to toggle popover</a>
+
+--- #myslide
+
+## Dream Big - Data Visualization ##
+
+</br>
+<script>
+$('#myslide').on('slideenter', function(){
+  $(this).find('article')
+    .append('<iframe src="http://bl.ocks.org/mbostock/raw/4600693/"></iframe>')
+});
+$('#myslide').on('slideleave', function(){
+  $(this).find('iframe').remove();
+});
+</script>
+
+--- #myslide
+
+## Dream Big - Data Visualization ##
+
+</br>
+<script>
+$('#myslide').on('slideenter', function(){
+  $(this).find('article')
+    .append('<iframe src="http://bl.ocks.org/mbostock/raw/1256572/"></iframe>')
+});
+$('#myslide').on('slideleave', function(){
+  $(this).find('iframe').remove();
+});
+</script>
+
+--- #myslide
+
+<script>
+$('#myslide').on('slideenter', function(){
+  $(this).find('article')
+    .append('<iframe src="http://bl.ocks.org/mbostock/raw/1256572/"></iframe>')
+});
+$('#myslide').on('slideleave', function(){
+  $(this).find('iframe').remove();
+});
+</script>
+
+--- 
+
+
 ## References
 
 [1] https://github.com/ramnathv/slidify/issues/393
