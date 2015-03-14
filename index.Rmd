@@ -10,11 +10,13 @@ knit        : slidify::knit2slides
 
 ## Agenda
 
-- Point 1
-- Point 2
-- Point 3
+- Personal Introduction
+- Economics in the Age of Big Data
+- Reproducibility: Handling Inputs
+- Reproducibility: Data Analysis
+- Reproducibility: Creating Client Deliverables
 
---- bg:#0097D1
+--- bg:#0097D1; 
 
 ## Section 1: Introduction
 </br>
@@ -29,9 +31,34 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
 
 ## Test of levels
 
-- some stuff
+>- some stuff
     - level two
-        - level three
+    - level three
+
+--- &tabs {class: class, tpl: tabs}
+
+## A Tab Page
+
+*** {class: active, id: Tab1}
+
+Tab1
+
+*** {id: Tab2}
+
+Tab2
+
+
+*** {id: Tab3}
+
+Tab3
+
+---
+
+## References
+
+[1] https://github.com/ramnathv/slidify/issues/393
+[2] https://raw.githubusercontent.com/ramnathv/slidifyExamples/gh-pages/examples/io2012/index.md
+[3] https://github.com/ramnathv/slidify/issues/312
 
 
 
