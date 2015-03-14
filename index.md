@@ -59,15 +59,6 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
 
 <img src=".\\assets\\img\\stacked_bar.png" height="300" width="300">
 
----
-
-## Sankey Example ##
-
-```
-
-via [timelyportfolio](http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html)
-
-
 --- #myslide
 
 ## The Peak - Full Interactivity ##
