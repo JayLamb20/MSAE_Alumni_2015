@@ -53,11 +53,17 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
   
 <a class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" id='example'>Click to toggle popover</a>
 
----
+--- &twocol
 
-## Base Camp - Static Exploratory Graphs ##
+## Base Camp - Static Exploratory Graphs (ggplot2) ##
 
-<img src=".\\assets\\img\\stacked_bar.png" height="400" width="500">
+*** =left
+
+<img src=".\\assets\\img\\stacked_bar.png" height="400" width="550">
+
+*** =right
+
+<img src=".\\assets\\img\\facets_bar.png" height="400" width="550">
 
 --- #myslide
 
