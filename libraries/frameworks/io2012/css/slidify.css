@@ -356,8 +356,9 @@ pre code {
 }
 
 .title-slide {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF;*/
   /* background-image:url(http://guardsmanbob.com/data/Wallpapers/wallpaper-1162819.jpg);*/
+  background-image:url(https://raw.githubusercontent.com/JayLamb20/MSAE_Alumni_2015/gh-pages/assets/img/IHS_Title_Slide.PNG);
   background-size: cover; /* this command fits the image to the background */
 }
 
