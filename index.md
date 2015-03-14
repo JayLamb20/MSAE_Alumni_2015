@@ -27,7 +27,7 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
 
 <center>     -Andrew McAfee </center>
 
---- bg:#0097D1
+--- bg:#FFFFFF;
 
 ## Test of levels
 
@@ -35,24 +35,7 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
     - level two
     - level three
 
---- &tabs {class: class, tpl: tabs}
-
-## A Tab Page
-
-*** {class: active, id: Tab1}
-
-Tab1
-
-*** {id: Tab2}
-
-Tab2
-
-
-*** {id: Tab3}
-
-Tab3
-
----
+--- bg:#FFFFFF;
 
 ## References
 
