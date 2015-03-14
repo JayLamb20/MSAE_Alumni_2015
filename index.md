@@ -55,7 +55,7 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
 
 --- &twocol
 
-## Base Camp - Static Exploratory Graphs ##
+## Base Camp - Static Exploratory Graphs (ggplot2) ##
 
 *** =left
 

@@ -357,10 +357,9 @@ pre code {
 
 .title-slide {
   /* background-color: #FFFFFF; */
-  /* background-image:url(http://guardsmanbob.com/data/Wallpapers/wallpaper-1162819.jpg); */
   /* background-image:url(https://raw.githubusercontent.com/JayLamb20/MSAE_Alumni_2015/gh-pages/assets/img/IHS_Title_Slide.jpg); */
-  /* background-image:url(http://lh3.googleusercontent.com/MQyljqjBNVR7P_zr78M9nPvalXr9Xko5D5JEmAnubM04Av0njBzvJHJnfupzHWg8r1B4BMmQ6h4=w766-h634); /* Note to self --> needs http not https */
-  background-image:url("./../../../../assets/img/IHS_Title_Slide_3.png");
+  /* background-image:url(http://lh3.googleusercontent.com/MQyljqjBNVR7P_zr78M9nPvalXr9Xko5D5JEmAnubM04Av0njBzvJHJnfupzHWg8r1B4BMmQ6h4=w766-h634); */ /* Note to self --> needs http not https*/
+  background-image:url("./../../../../assets/img/IHS_Title_Slide_3.PNG");
   background-size: cover; /* this command fits the image to the background */
 }
 
