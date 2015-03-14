@@ -53,38 +53,26 @@ Megabyte (MB) &#10137; Gigabyte (GB) &#10137; Terabyte (TB) &#10137; Petabyte (P
   
 <a class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" id='example'>Click to toggle popover</a>
 
+---
+
+## Base Camp - Static Exploratory Graphs ##
+
+<img src=".\\assets\\img\\stacked_bar.png" height="400" width="900">
+
+---
+
+## Sankey Example ##
+
+```
+
+via [timelyportfolio](http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html)
+
+
 --- #myslide
 
-## Dream Big - Data Visualization ##
+## The Peak - Full Interactivity ##
 
 </br>
-<script>
-$('#myslide').on('slideenter', function(){
-  $(this).find('article')
-    .append('<iframe src="http://bl.ocks.org/mbostock/raw/4600693/"></iframe>')
-});
-$('#myslide').on('slideleave', function(){
-  $(this).find('iframe').remove();
-});
-</script>
-
---- #myslide
-
-## Dream Big - Data Visualization ##
-
-</br>
-<script>
-$('#myslide').on('slideenter', function(){
-  $(this).find('article')
-    .append('<iframe src="http://bl.ocks.org/mbostock/raw/1256572/"></iframe>')
-});
-$('#myslide').on('slideleave', function(){
-  $(this).find('iframe').remove();
-});
-</script>
-
---- #myslide
-
 <script>
 $('#myslide').on('slideenter', function(){
   $(this).find('article')
@@ -103,7 +91,7 @@ $('#myslide').on('slideleave', function(){
 [1] https://github.com/ramnathv/slidify/issues/393
 [2] https://raw.githubusercontent.com/ramnathv/slidifyExamples/gh-pages/examples/io2012/index.md
 [3] https://github.com/ramnathv/slidify/issues/312
-
+[4] http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html
 
 
 
