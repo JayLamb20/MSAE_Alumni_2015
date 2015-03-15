@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -317,7 +317,7 @@ slides > slide:not(.nobackground):before {
 /* line 183, ../scss/default.scss */
 slides > slide:not(.nobackground):after {
   font-size: 12pt;
-  content: attr(data-slide-num) "/" attr(data-total-slides);
+  content:'';
   position: absolute;
   bottom: 20px;
   right: 60px;

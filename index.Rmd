@@ -8,15 +8,10 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 --- 
 
-## Agenda
+<h2 style="color: #0097D1">Disclaimer</h2>
 
-
-
-- Personal Introduction
-- Economics in the Age of Big Data
-- Reproducibility: Handling Inputs
-- Reproducibility: Data Analysis
-- Reproducibility: Creating Client Deliverables
+</br></br>
+<h3 style="color: #0097D1">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of IHS Inc.</h4>
 
 --- &twocol
 
@@ -30,11 +25,12 @@ knit        : slidify::knit2slides
     <li><FONT COLOR="#A1ABB2" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>5</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#0097D1" SIZE=5><b>II. Reproducibility: Motivation</b></FONT>
+<FONT COLOR="#0097D1" SIZE=5><b>II. Reproducibility</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility: Handling Inputs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility: Data Analysis</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility: Creating Client Deliverables</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Motivation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Handling Inputs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Analysis</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Creating Client Deliverables</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
 </ol>
 
 
@@ -42,19 +38,19 @@ knit        : slidify::knit2slides
 
 <FONT COLOR="#0097D1" SIZE=5><b>III. Getting & Cleaning Data</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Local Files</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Databases</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>10</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Working with APIs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>11</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>12</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Local Files</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>10</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Databases</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Working with APIs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>12</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>13</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#0097D1" SIZE=5><b>IV. Beautiful, Reproducible Output</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Markdown (incl. Rmd)</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>13</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>LaTeX</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>HTML & CSS</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>15</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Excel VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>16</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study: PowerPoint VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>17</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Markdown (incl. Rmd)</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>14</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>LaTeX</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>HTML & CSS</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>16</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Excel VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>17</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study: PowerPoint VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>18</FONT></span> </li>
 </ol>
 
 --- bg:#0097D1;
@@ -62,17 +58,104 @@ knit        : slidify::knit2slides
 <h2 style="color: #FFFFFF">Section I.</h2>
 <hr></hr>
 
-<h2 style="color: #FFFFFF">This is a Section Page</h2>
+<h2 style="color: #FFFFFF">Introduction</h2>
 
----
+--- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1">&#x25cf; &#x25cb; &#x25cb; </FONT>
-  <FONT>   I. Reproducibility</FONT></span>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h3 style="color: #0097D1"><b>Body Title</b></h3>
+<h2 style="color: #0097D1">Personal Introduction</h3>
+
+This is a Body text slide.
+
+>- some stuff
+    - level two
+    - level three
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Economics in the Age of Big Data</h3>
+
+This is a Body text slide.
+
+>- some stuff
+    - level two
+    - level three
+
+--- bg:#0097D1;
+
+<h2 style="color: #FFFFFF">Section II.</h2>
+<hr></hr>
+
+<h2 style="color: #FFFFFF">Reproducibility</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Motivation</h3>
+
+This is a Body text slide.
+
+>- some stuff
+    - level two
+    - level three
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Handling Inputs</h3>
+
+This is a Body text slide.
+
+>- some stuff
+    - level two
+    - level three
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Data Analysis</h3>
+
+This is a Body text slide.
+
+>- some stuff
+    - level two
+    - level three
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Creating Client Deliverables</h3>
 
 This is a Body text slide.
 
@@ -138,5 +221,6 @@ $('#myslide').on('slideleave', function(){
 [6] http://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height
 [7] http://stackoverflow.com/questions/6874402/remove-space-above-and-below-p-tag-html
 [8] https://github.com/ramnathv/slidify/issues/234
+[9] http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element
 
 
