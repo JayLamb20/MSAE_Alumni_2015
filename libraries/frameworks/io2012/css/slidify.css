@@ -32,6 +32,20 @@
   left: 60px;
 }
 
+/*reduce the line break size*/
+br {
+   display: block;
+   margin: 4px 0;
+}
+
+footer {
+    font-size: 12pt;
+    position:absolute;
+    bottom:20px;
+    line-height: 1.9;
+    width:100%;
+}
+
 
 /* Styles for Title Slide */
 .title-slide hgroup > h1{
@@ -215,7 +229,7 @@ ol, ul {
 }
 
 ol {
-  list-style-type: decimal;
+  list-style-type: none;
 }
 
 /*Github Ribbon Test*/
@@ -299,7 +313,10 @@ body {
 p {
   text-align: justify;
   line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
 }
+
 /* Place Video on Top Right */
 /* FIXME: Move CSS to css/popcorn.css */
 section.video {
