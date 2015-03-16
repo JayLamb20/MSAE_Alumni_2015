@@ -37,10 +37,11 @@ knit        : slidify::knit2slides
 
 <FONT COLOR="#0097D1" SIZE=5><b>II. Reproducibility</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Motivation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Handling Inputs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Analysis</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Creating Client Deliverables</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study 1: Collaboration with Git Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
 </ol>
 
 
@@ -127,29 +128,17 @@ knit        : slidify::knit2slides
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Motivation</h3>
+<h2 style="color: #0097D1">What is Reproducibility?</h3>
+</br>
 
-This is a Body text slide.
+- NOT about replication in the empirical sense
+    - i.e. "Do other people with different data find similar results?" 
+- More like:
+    - "If you give someone else your data (in its rawest form) and code, do they get the same results you presented?"
+</br></br></br></br></br></br></br>
+    
+*Note: Much of the content in this section is adopted from ["Reproducible Research"](https://www.coursera.org/course/repdata), a MOOC from Johns Hopkins. See [here](https://github.com/jtleek/modules/tree/master/05_ReproducibleResearch) for more.*
 
->- some stuff
-    - level two
-    - level three
-
---- bg:#FFFFFF;
-
-<footer>
-  <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
-</footer>
-
-<h2 style="color: #0097D1">Handling Inputs</h3>
-
-This is a Body text slide.
-
->- some stuff
-    - level two
-    - level three
 
 --- bg:#FFFFFF;
 
@@ -159,13 +148,58 @@ This is a Body text slide.
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Data Analysis</h3>
+<h2 style="color: #0097D1">Why Should I Care?</h3>
 
-This is a Body text slide.
+>- <b>[Clients are demanding](http://www.thebylinegroup.com/article6.html) --> they might change their minds many times</b>
+    * Need to make changes (including reproduction of deliverables) quickly
+    * Need an accurate project history
+</br>
+>- <b>Development requires testing</b>
+    * Need to be able to change inputs and see impact on the entire project environment
+</br>
+>- <b>Reproducibility begets clear thinking</b>
+    * The exercise will make you assess many dimensions of project work
+    * Participate in "big picture" thinking that might be lost in piecemeal efforts
 
->- some stuff
-    - level two
-    - level three
+
+--- &twocol bg:#FFFFFF; 
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Reproducibility Checklist</h3>
+
+Guiding principles for [conducting reproducible analyses](https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md):
+</br></br>
+
+*** =left
+
+<center><FONT COLOR="#B22222" size=6> DON'T </FONT></center>
+<hr></hr>
+
+- Save multiple file versions
+- Manually edit spreadsheets
+- Split/reformat data files
+- Download data from a website
+- **Point and click**
+- Save output
+- Document at the end
+
+*** =right
+
+<center><FONT COLOR="#00800" size=6> DO </FONT></center>
+<hr></hr>
+
+- Use version control
+- Use code to manipulate data
+- Keep raw data intact
+- Write code to read in (if possible)
+- **Use code**
+- Save data + code for generating output
+- Edit documentation as you go
 
 --- bg:#FFFFFF;
 
@@ -175,13 +209,32 @@ This is a Body text slide.
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Creating Client Deliverables</h3>
+<h2 style="color: #0097D1">Introduction to Version Control</h3>
 
-This is a Body text slide.
+"Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later." - [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
->- some stuff
-    - level two
-    - level three
+- The software: [Git](http://en.wikipedia.org/wiki/Git_%28software%29) | [GitHub](https://github.com/JayLamb20/MSAE_Alumni_2015/commits/gh-pages) (online extension)
+    - Distributed (read: "free") revision control and collaboration system
+    - Tracks project history, lets you revert back to old versions
+- An example:
+
+<center><img src=".\\assets\\img\\git_log.png"></center>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #0097D1">Case Study: Collaboration with Git</h3>
+
+<b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation).
+
+>- Non-reproducible approach:
+
+<span><img src=".\\assets\\img\\version_control_data.png" height="200" width="300"><img src=".\\assets\\img\\version_control_prog.png" height="200" width="300"></span>
 
 --- bg:#0097D1;
 

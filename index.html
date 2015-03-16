@@ -79,10 +79,11 @@
 <p><FONT COLOR="#0097D1" SIZE=5><b>II. Reproducibility</b></FONT></p>
 
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Motivation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Handling Inputs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Analysis</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Creating Client Deliverables</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study 1: Collaboration with Git Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
 </ol>
 
 </div>
@@ -213,18 +214,24 @@
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer></p>
 
-<p><h2 style="color: #0097D1">Motivation</h3></p>
-
-<p>This is a Body text slide.</p>
-
-<ul class = "build incremental">
-<li>some stuff
+<p><h2 style="color: #0097D1">What is Reproducibility?</h3>
+</br></p>
 
 <ul>
-<li>level two</li>
-<li>level three</li>
+<li>NOT about replication in the empirical sense
+
+<ul>
+<li>i.e. &quot;Do other people with different data find similar results?&quot; </li>
+</ul></li>
+<li>More like:
+
+<ul>
+<li>&quot;If you give someone else your data (in its rawest form) and code, do they get the same results you presented?&quot;
+</br></br></br></br></br></br></br></li>
 </ul></li>
 </ul>
+
+<p><em>Note: Much of the content in this section is adopted from <a href="https://www.coursera.org/course/repdata">&quot;Reproducible Research&quot;</a>, a MOOC from Johns Hopkins. See <a href="https://github.com/jtleek/modules/tree/master/05_ReproducibleResearch">here</a> for more.</em></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -238,16 +245,27 @@
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer></p>
 
-<p><h2 style="color: #0097D1">Handling Inputs</h3></p>
-
-<p>This is a Body text slide.</p>
+<p><h2 style="color: #0097D1">Why Should I Care?</h3></p>
 
 <ul class = "build incremental">
-<li>some stuff
+<li><b><a href="http://www.thebylinegroup.com/article6.html">Clients are demanding</a> --&gt; they might change their minds many times</b>
 
 <ul>
-<li>level two</li>
-<li>level three</li>
+<li>Need to make changes (including reproduction of deliverables) quickly</li>
+<li>Need an accurate project history
+</br></li>
+</ul></li>
+<li><b>Development requires testing</b>
+
+<ul>
+<li>Need to be able to change inputs and see impact on the entire project environment
+</br></li>
+</ul></li>
+<li><b>Reproducibility begets clear thinking</b>
+
+<ul>
+<li>The exercise will make you assess many dimensions of project work</li>
+<li>Participate in &quot;big picture&quot; thinking that might be lost in piecemeal efforts</li>
 </ul></li>
 </ul>
 
@@ -263,19 +281,41 @@
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer></p>
 
-<p><h2 style="color: #0097D1">Data Analysis</h3></p>
+<p><h2 style="color: #0097D1">Reproducibility Checklist</h3></p>
 
-<p>This is a Body text slide.</p>
+<p>Guiding principles for <a href="https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md">conducting reproducible analyses</a>:
+</br></br></p>
 
-<ul class = "build incremental">
-<li>some stuff
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><FONT COLOR="#B22222" size=6> DON&#39;T </FONT></center>
+<hr></hr></p>
 
 <ul>
-<li>level two</li>
-<li>level three</li>
-</ul></li>
+<li>Save multiple file versions</li>
+<li>Manually edit spreadsheets</li>
+<li>Split/reformat data files</li>
+<li>Download data from a website</li>
+<li><strong>Point and click</strong></li>
+<li>Save output</li>
+<li>Document at the end</li>
 </ul>
 
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><FONT COLOR="#00800" size=6> DO </FONT></center>
+<hr></hr></p>
+
+<ul>
+<li>Use version control</li>
+<li>Use code to manipulate data</li>
+<li>Keep raw data intact</li>
+<li>Write code to read in (if possible)</li>
+<li><strong>Use code</strong></li>
+<li>Save data + code for generating output</li>
+<li>Edit documentation as you go</li>
+</ul>
+
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -288,24 +328,49 @@
   <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer></p>
 
-<p><h2 style="color: #0097D1">Creating Client Deliverables</h3></p>
+<p><h2 style="color: #0097D1">Introduction to Version Control</h3></p>
 
-<p>This is a Body text slide.</p>
-
-<ul class = "build incremental">
-<li>some stuff
+<p>&quot;Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.&quot; - <a href="http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Git documentation</a></p>
 
 <ul>
-<li>level two</li>
-<li>level three</li>
+<li>The software: <a href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> | <a href="https://github.com/JayLamb20/MSAE_Alumni_2015/commits/gh-pages">GitHub</a> (online extension)
+
+<ul>
+<li>Distributed (read: &quot;free&quot;) revision control and collaboration system</li>
+<li>Tracks project history, lets you revert back to old versions</li>
 </ul></li>
+<li>An example:</li>
 </ul>
+
+<p><center><img src=".\\assets\\img\\git_log.png"></center></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-11" style="background:#0097D1;;">
+<slide class="" id="slide-11" style="background:#FFFFFF;;">
+  <article data-timings="">
+    <p><footer>
+  <hr></hr>
+  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer></p>
+
+<p><h2 style="color: #0097D1">Case Study: Collaboration with Git</h3></p>
+
+<p><b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation).</p>
+
+<ul class = "build incremental">
+<li>Non-reproducible approach:</li>
+</ul>
+
+<p><span><img src=".\\assets\\img\\version_control_data.png" height="200" width="300"><img src=".\\assets\\img\\version_control_prog.png" height="200" width="300"></span></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:#0097D1;;">
   <article data-timings="">
     <h2 style="color: #FFFFFF">Section III.</h2>
 
@@ -318,7 +383,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-12" style="background:#FFFFFF;;">
+<slide class="" id="slide-13" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -343,7 +408,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-13" style="background:#FFFFFF;;">
+<slide class="" id="slide-14" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -368,7 +433,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-14" style="background:#FFFFFF;;">
+<slide class="" id="slide-15" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -393,7 +458,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-15" style="background:#FFFFFF;;">
+<slide class="" id="slide-16" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -418,7 +483,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-16" style="background:#0097D1;;">
+<slide class="" id="slide-17" style="background:#0097D1;;">
   <article data-timings="">
     <h2 style="color: #FFFFFF">Section IV.</h2>
 
@@ -431,7 +496,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-17" style="background:#FFFFFF;;">
+<slide class="" id="slide-18" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -456,7 +521,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-18" style="background:#FFFFFF;;">
+<slide class="" id="slide-19" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -481,7 +546,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-19" style="background:#FFFFFF;;">
+<slide class="" id="slide-20" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -506,7 +571,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-20" style="background:#FFFFFF;;">
+<slide class="" id="slide-21" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -531,7 +596,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-21" style="background:#FFFFFF;;">
+<slide class="" id="slide-22" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -556,7 +621,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-22" style="background:;">
+<slide class="" id="slide-23" style="background:;">
   <hgroup>
     <h2>popover test</h2>
   </hgroup>
@@ -569,7 +634,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-23" style="background:;">
+<slide class="" id="slide-24" style="background:;">
   <hgroup>
     <h2>Base Camp - Static Exploratory Graphs (ggplot2)</h2>
   </hgroup>
@@ -608,7 +673,7 @@ $('#myslide').on('slideleave', function(){
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-25" style="background:;">
+<slide class="" id="slide-26" style="background:;">
   <hgroup>
     <h2>References</h2>
   </hgroup>
@@ -759,26 +824,32 @@ $('#myslide').on('slideleave', function(){
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='popover test'>
+        data-slide=22 title=''>
          22
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Base Camp - Static Exploratory Graphs (ggplot2)'>
+        data-slide=23 title='popover test'>
          23
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='The Peak - Full Interactivity'>
+        data-slide=24 title='Base Camp - Static Exploratory Graphs (ggplot2)'>
          24
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='References'>
+        data-slide=25 title='The Peak - Full Interactivity'>
          25
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='References'>
+         26
       </a>
     </li>
   </ul>
