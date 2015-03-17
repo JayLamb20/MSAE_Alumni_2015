@@ -10,61 +10,61 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Disclaimer</h2>
+<h2 style="color: #009900">Disclaimer</h2>
 
 </br></br>
-<h3 style="color: #0097D1">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of IHS Inc.</h4>
+<h3 style="color: #009900">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of IHS Inc.</h4>
 
 --- &twocol
 
 <footer>
   <hr></hr>
-  <span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Contents</h2>
+<h2 style="color: #009900">Contents</h2>
 
 *** =left
 
-<FONT COLOR="#0097D1" SIZE=5><b>I. Introduction</b></FONT>
+<FONT COLOR="#009900" SIZE=5><b>I. Introduction</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>4</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>5</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>4</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>5</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#0097D1" SIZE=5><b>II. Reproducibility</b></FONT>
+<FONT COLOR="#009900" SIZE=5><b>II. Reproducibility</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>8</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study 1: Collaboration with Git Version Control</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study 1: Collaboration with Git Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
 </ol>
 
 
 *** =right
 
-<FONT COLOR="#0097D1" SIZE=5><b>III. Getting & Cleaning Data</b></FONT>
+<FONT COLOR="#009900" SIZE=5><b>III. Getting & Cleaning Data</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Local Files</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>10</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Databases</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>11</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Working with APIs</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>12</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>13</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Local Files</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>10</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Databases</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Working with APIs</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>12</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>13</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#0097D1" SIZE=5><b>IV. Beautiful, Reproducible Output</b></FONT>
+<FONT COLOR="#009900" SIZE=5><b>IV. Beautiful, Reproducible Output</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Markdown (incl. Rmd)</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>LaTeX</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>15</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>HTML & CSS</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>16</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Excel VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>17</FONT></span> </li>
-    <li><FONT COLOR="#A1ABB2" SIZE=4>Case Study: PowerPoint VBA</FONT><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=4>18</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Markdown (incl. Rmd)</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>LaTeX</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>HTML & CSS</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>16</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Excel VBA</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>17</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study: PowerPoint VBA</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
 </ol>
 
---- bg:#0097D1;
+--- bg:#009900;
 
 <h2 style="color: #FFFFFF">Section I.</h2>
 <hr></hr>
@@ -75,11 +75,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Personal Introduction</h3>
+<h2 style="color: #009900">Personal Introduction</h3>
 
 >- <b>My Marquette Experience:</b>
     - B.S., Economics & Marketing (2013)
@@ -97,11 +97,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Economics in the Age of Big Data</h3>
+<h2 style="color: #009900">Economics in the Age of Big Data</h3>
 </br>
 
 **From [Einav & Levin (2014)](http://www.sciencemag.org/content/346/6210/1243089.full.pdf?keytype=ref&siteid=sci&ijkey=Jj7wCy7hhth4M):**
@@ -113,7 +113,7 @@ knit        : slidify::knit2slides
 </br></br>
 >- Other Commentary: [Einav (2013)](http://www.stanford.edu/~leinav/pubs/IPE2014.pdf) | [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) | [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf) | [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/)
 
---- bg:#0097D1;
+--- bg:#009900;
 
 <h2 style="color: #FFFFFF">Section II.</h2>
 <hr></hr>
@@ -124,11 +124,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">What is Reproducibility?</h3>
+<h2 style="color: #009900">What is Reproducibility?</h3>
 </br>
 
 - NOT about replication in the empirical sense
@@ -144,11 +144,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Why Should I Care?</h3>
+<h2 style="color: #009900">Why Should I Care?</h3>
 
 >- <b>[Clients are demanding](http://www.thebylinegroup.com/article6.html) --> they might change their minds many times</b>
     * Need to make changes (including reproduction of deliverables) quickly
@@ -166,11 +166,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Reproducibility Checklist</h3>
+<h2 style="color: #009900">Reproducibility Checklist</h3>
 
 Guiding principles for [conducting reproducible analyses](https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md):
 </br></br>
@@ -205,11 +205,11 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Introduction to Version Control</h3>
+<h2 style="color: #009900">Introduction to Version Control</h3>
 
 "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later." - [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
@@ -224,11 +224,11 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   II. Reproducibility</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Case Study: Collaboration with Git</h3>
+<h2 style="color: #009900">Case Study: Collaboration with Git</h3>
 
 <b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation).
 
@@ -236,7 +236,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <span><img src=".\\assets\\img\\version_control_data.png" height="200" width="300"><img src=".\\assets\\img\\version_control_prog.png" height="200" width="300"></span>
 
---- bg:#0097D1;
+--- bg:#009900;
 
 <h2 style="color: #FFFFFF">Section III.</h2>
 <hr></hr>
@@ -247,11 +247,11 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Local Files</h3>
+<h2 style="color: #009900">Local Files</h3>
 
 This is a Body text slide.
 
@@ -263,11 +263,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Databases</h3>
+<h2 style="color: #009900">Databases</h3>
 
 This is a Body text slide.
 
@@ -279,11 +279,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Working with APIs</h3>
+<h2 style="color: #009900">Working with APIs</h3>
 
 This is a Body text slide.
 
@@ -295,11 +295,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   III. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Data Manipulation</h3>
+<h2 style="color: #009900">Data Manipulation</h3>
 
 This is a Body text slide.
 
@@ -307,7 +307,7 @@ This is a Body text slide.
     - level two
     - level three
 
---- bg:#0097D1;
+--- bg:#009900;
 
 <h2 style="color: #FFFFFF">Section IV.</h2>
 <hr></hr>
@@ -318,11 +318,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Markdown (incl. Rmd)</h3>
+<h2 style="color: #009900">Markdown (incl. Rmd)</h3>
 
 This is a Body text slide.
 
@@ -334,11 +334,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">LaTeX</h3>
+<h2 style="color: #009900">LaTeX</h3>
 
 This is a Body text slide.
 
@@ -350,11 +350,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">HTML & CSS</h3>
+<h2 style="color: #009900">HTML & CSS</h3>
 
 This is a Body text slide.
 
@@ -366,11 +366,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Excel VBA</h3>
+<h2 style="color: #009900">Excel VBA</h3>
 
 This is a Body text slide.
 
@@ -382,11 +382,11 @@ This is a Body text slide.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#0097D1" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#A1ABB2" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#A1ABB2" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>   IV. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #0097D1">Case Study: PowerPoint VBA</h3>
+<h2 style="color: #009900">Case Study: PowerPoint VBA</h3>
 
 This is a Body text slide.
 
@@ -396,7 +396,7 @@ This is a Body text slide.
 
 ---
 
-## popover test ##
+# popover test #
 
 **Popover**
   
@@ -404,7 +404,7 @@ This is a Body text slide.
 
 --- &twocol
 
-## Base Camp - Static Exploratory Graphs (ggplot2) ##
+# Base Camp - Static Exploratory Graphs (ggplot2) #
 
 *** =left
 
@@ -416,7 +416,7 @@ This is a Body text slide.
 
 --- #myslide
 
-## The Peak - Full Interactivity ##
+# The Peak - Full Interactivity #
 
 </br>
 <script>
@@ -432,7 +432,7 @@ $('#myslide').on('slideleave', function(){
 --- 
 
 
-## References
+# References
 
 [1] https://github.com/ramnathv/slidify/issues/393 
 [2] https://raw.githubusercontent.com/ramnathv/slidifyExamples/gh-pages/examples/io2012/index.md 
