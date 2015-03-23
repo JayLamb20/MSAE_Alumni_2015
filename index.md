@@ -94,13 +94,16 @@ knit        : slidify::knit2slides
     <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>30</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>31</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Case Study: Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>32</FONT></span> </li>
+</ol>
+
+*** =right
+
+<ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>The Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>33</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>34</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#009900" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
-
-*** =right
 
 --- bg:#DB94B8;
 
@@ -258,7 +261,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 Reproducible economic research requires programming. There is no way around it. Here are a few lessons I've learned:
 
 >- <b>Use a preamble</b>
-    - Your code should start with a set of key strings, scalars to be used throughout the program
+    - Your code should start with a set of key strings, scalars to be used throughout
     - These might include filepaths, mnemonic lists, samples (for time series)
 >- <b>Keep it modular</b>
     - Different functions should be accomplished by separate subroutines
@@ -266,7 +269,6 @@ Reproducible economic research requires programming. There is no way around it. 
 >- <b>Use comments</b>
     - Every programmer makes choices
     - The code provides a record of these choices; Comments give a record of the decision-making process that led to them
-
 
 --- bg:#FFFFFF;
 
@@ -405,7 +407,7 @@ Not all data are tidy and clean.
     - In the absence of data, we use heuristic decision-making - [Kahneman(2011)](http://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
     - When problems are not well-defined, we form our own hypotheses and use them to fill gaps in the data - [Arthur (2014)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&)
 >- <b>Document these decisions</b>
-    - Store exogenously set parameters in program scalars
+    - Store exogenously-set parameters in program scalars
     - Link to academic papers, other commentary as justification
 >- <b>Keep it simple</b>
     - If a relationship is truly linear, using more complex models won't improve performance - [Pang-Ning et. al (2006)](http://www-users.cs.umn.edu/~kumar/dmbook/index.php)
@@ -456,7 +458,6 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
 
 <img src=".\\assets\\img\\facets_bar.png" height="400" width="550">
 
-
 --- #myslide
 
 <footer>
@@ -465,7 +466,7 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Animated Graphics</h2>
+<span><h2 style="color: #009900">Animated Graphics</h2> <FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT></span>
 
 <script>
 $('#myslide').on('slideenter', function(){
@@ -476,8 +477,6 @@ $('#myslide').on('slideleave', function(){
   $(this).find('iframe').remove();
 });
 </script>
-
-<FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT>
 
 ---
 
@@ -490,14 +489,14 @@ $('#myslide').on('slideleave', function(){
 <h2 style="color: #009900">Interactive Graphics</h2>
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Sun Mar 22 21:59:46 2015 -->
+<!-- Mon Mar 23 08:31:14 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID110c153e1781 () {
+function gvisDataMotionChartID101c7f46dfc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2599,15 +2598,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID110c153e1781() {
-var data = gvisDataMotionChartID110c153e1781();
+function drawChartMotionChartID101c7f46dfc() {
+var data = gvisDataMotionChartID101c7f46dfc();
 var options = {};
 options["width"] =   1000;
 options["height"] =    450;
 options["state"] = "\n{\"iconType\":\"BUBBLE\",\"uniColorForNonSelected\":false,\"orderedByX\":false,\"playDuration\":15000,\"xZoomedIn\":false,\"xZoomedDataMin\":5,\"yZoomedIn\":false,\"xLambda\":0,\"time\":\"2001\",\"orderedByY\":false,\"xZoomedDataMax\":103080,\"yLambda\":0,\"sizeOption\":\"2\",\"nonSelectedAlpha\":0.4,\"colorOption\":\"_UNIQUE_COLOR\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"the Netherlands\"},\"trailStart\":\"2001\"}],\"xAxisOption\":\"2\",\"yZoomedDataMax\":0.7340301974,\"duration\":{\"multiplier\":1,\"timeUnit\":\"Y\"},\"yAxisOption\":\"3\",\"yZoomedDataMin\":0,\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"showTrails\":true}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID110c153e1781')
+    document.getElementById('MotionChartID101c7f46dfc')
     );
     chart.draw(data,options);
     
@@ -2631,9 +2630,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID110c153e1781);
+callbacks.push(drawChartMotionChartID101c7f46dfc);
 })();
-function displayChartMotionChartID110c153e1781() {
+function displayChartMotionChartID101c7f46dfc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2657,11 +2656,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID110c153e1781"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID101c7f46dfc"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID110c153e1781" 
+<div id="MotionChartID101c7f46dfc" 
   style="width: 1000; height: 450;">
 </div>
 
@@ -2707,7 +2706,18 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <h2 style="color: #009900">Literate Statistical Programming</h2>
 
-This is a Body text slide.
+>- <b>Main Idea</b>
+    - Usual workflow: Do stuff to data, get the output, use it to create a final report
+    - LSP workflow: code and final text live in one document. Code is run when report is compiled.
+    - [Example video](https://www.youtube.com/watch?v=YcJb1HBc-1Q&t=18m15s) (Click me!)
+    
+>- <b>[Knuth (1992)](http://www.literateprogramming.com/index.html)</b>
+    > "The practitioner of literate programming can be regarded as an essayist, whose main concern is with exposition"
+    
+>- <b>Practical Applications</b>
+    - LSP offers a uniquely powerful method for authoring documentation.
+    - It is superior to commenting code (but don't stop commenting!)
+
 
 --- bg:#FFFFFF;
 
@@ -2719,11 +2729,17 @@ This is a Body text slide.
 
 <h2 style="color: #009900">Multi-Software Solutions</h2>
 
-This is a Body text slide.
+All software have strengths and weaknesses. You might, for example, want to do data wrangling in R, forecasting in EViews, and deliverable preparation in EXcel. How can this be accomplished? A few options are given below.
 
->- some stuff
-    - level two
-    - level three
+>- <b>Read/write: "baton-passing"</b>
+    - Step 1 gets raw data, does stuff, exports to a csv
+    - Step 2 reads that csv (maybe in to EViews), does some stuff, dumps its output to Excel
+    - Step 3 pulls data from the FCST_DATA range in Excel, does stuff, creates deliverable
+>- <b>An alternative: "quarterbacking"</b>
+    - Choose a single software to control the other software; e.g. [COM Automation in EViews](http://www.eviews.com/download/whitepapers/EViews_COM_Automation.pdf)
+    - Most software can pass commands directly to the Windows command line
+    - Store commands in a [VBScript file](http://en.wikipedia.org/wiki/VBScript) and execute it with a one-line command call
+    - Examples in: [R](https://stat.ethz.ch/R-manual/R-patched/library/base/html/system.html) | [Python](http://sarge.readthedocs.org/en/latest/) | [EViews](https://remote.bus.brocku.ca/files/Published_Resources/EViews_7/Docs/EViews%207%20Command%20Ref.pdf#105) (see "shell") | [MATLAB](http://blogs.mathworks.com/community/2010/05/17/calling-shell-commands-from-matlab/) | [SAS](http://support.sas.com/documentation/cdl/en/hostwin/63285/HTML/default/viewer.htm#exittemp.htm)
 
 --- bg:#FFFFFF;
 
@@ -2735,11 +2751,16 @@ This is a Body text slide.
 
 <h2 style="color: #009900">Collaboration with Git</h2>
 
-This is a Body text slide.
-
->- some stuff
-    - level two
-    - level three
+>- <b>Put project files in a shared repo</b>
+    - Examples: GitHub, Google Drive, Dropbox, shared network (corporate setting), BitBucket, others
+>- <b>Work locally</b>
+    - Each team member "[clones](http://git-scm.com/docs/git-clone)" the repo (i.e. makes a local copy)
+    - Testing and development are done locally, changes are "pushed" to the shared, central repo
+>- <b>Advantages</b>
+    - Complete project history (with ability to revert to old versions)
+    - Multiple local copies of the repo minimizes risk of data loss
+    - Avoid unwieldy shared folders with many file versions
+    - Mitigated risk of over-writing or writing [conflicting code](http://githowto.com/resolving_conflicts)
 
 --- bg:#FFFFFF;
 
@@ -2751,11 +2772,9 @@ This is a Body text slide.
 
 <h2 style="color: #009900">Case Study: Collaboration with Git</h2>
 
-<b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation).
+<b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation). Without version control, this is the result:
 
->- Non-reproducible approach:
-
-<span><img src=".\\assets\\img\\version_control_data.png" height="200" width="300"><img src=".\\assets\\img\\version_control_prog.png" height="200" width="300"></span>
+<span><img src=".\\assets\\img\\version_control_data.png" height="400" width="400">&nbsp;&nbsp;&nbsp;<img src=".\\assets\\img\\version_control_prog.png" height="400" width="400"></span>
 
 --- bg:#FFFFFF;
 
@@ -2792,7 +2811,7 @@ This is a Body text slide.
     * Team 2 (analysts) uses R to import ```forecast.csv``` and create graphs and summary tables. These are stored in folder called ```Assets```
     * Team 3 (consultants) uses VBA PowerPoint to pull in the figures from ```Assets``` and, with pre-made slide templates, generate a slide deck which can be compiled into a pdf to be delivered to the client.
 >- <b>What Do You Notice?</b>
-    * Freezing the output/input formats strategically lets teams work in isolation without breaking each others' processes.
+    * Freezing the output/input formats strategically lets teams work in isolation without breaking each others' processes
 
 --- bg:#009900;
 
