@@ -57,7 +57,7 @@ footer {
 }
 
 /* Fonts and Spacing */
-/* ---This controls Body Text--- */
+/* ---This controls Body Text (not author and job)--- */
 article p, article li, article li.build, section p, section li{
   font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond',  'Palatino', sans-serif;
   text-align: justify;
@@ -67,7 +67,7 @@ article p, article li, article li.build, section p, section li{
 }
 
 
-/* Not Sure what this controls */
+/* Not Sure what this controls (markdown?) */
 slide:not(.segue) h2{
   font-family: 'Calibri', Arial, sans-serif;
   font-size: 52px;
@@ -76,8 +76,6 @@ slide:not(.segue) h2{
   text-transform: normal;
   letter-spacing: -2px;
   line-height: 1.2em;
-/*  color: #193441;*/
-/*  color: #02574D;*/
   color: #CC2904;
 }
 
@@ -373,10 +371,8 @@ pre code {
 }
 
 .title-slide {
-  /* background-color: #FFFFFF; */
-  background-image:url(http://lh3.googleusercontent.com/MQyljqjBNVR7P_zr78M9nPvalXr9Xko5D5JEmAnubM04Av0njBzvJHJnfupzHWg8r1B4BMmQ6h4=w766-h634);
-  /* background-image:url("./../../../../assets/img/IHS_Title_Slide_3.PNG"); */
-  background-size: cover; /* this command fits the image to the background */
+  background-image:url("./../../../../assets/img/lightbulb.jpg");
+  background-size: cover;
 }
 
 .title-slide hgroup > h1{
@@ -385,7 +381,7 @@ pre code {
 
 .title-slide hgroup > h1, 
 .title-slide hgroup > h2 {
-  color: #0097D1; /* #535E43 ;/*  /* ; #EF5150*/
+  color: /*#EF5150;*/ #FF9900;
 }
 
 

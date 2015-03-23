@@ -1,4 +1,8 @@
 ---
+title       : Economic Consulting
+subtitle    : Practicing Economics in the Hellabyte Era
+author      : James Lamb
+job         : Analyst | IHS Economics | Market Planning & Consulting
 logo        : 
 framework   : io2012  # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -60,8 +64,8 @@ knit        : slidify::knit2slides
 
 <FONT COLOR="#009900" SIZE=5><b>V. Statistical Analysis</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Guidelines</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Programming Languages for Economics</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Tips & Tricks</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>20</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Making & Documenting Decisions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>21</FONT></span> </li>
 </ol>
 
 --- &twocol
@@ -77,15 +81,21 @@ knit        : slidify::knit2slides
 
 <FONT COLOR="#009900" SIZE=5><b>VI. Beautiful, Reproducible Output</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Tools for Creating Deliverables</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Final Formats</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Literate Statistical Programming</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>24</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Animated Graphics: D3.js</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Interactive Graphics: googleVis</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Creating Deliverables with Code</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>27</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#009900" SIZE=5><b>VII. Putting it All Together</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Collaboration</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Literate Statistical Programming</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>29</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>30</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>31</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>32</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>The Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>33</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>34</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#009900" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
@@ -339,7 +349,7 @@ Now we have the guiding motivation. Let's start building a real project! We begi
 
 <h2 style="color: #009900">Data Manipulation</h2>
 
-Not all data are tidy and clean
+Not all data are tidy and clean.
 
 >- <b>You will need to do some manipulation</b>
     - Data scientists call this [data wrangling](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes)
@@ -416,13 +426,84 @@ Not all data are tidy and clean
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Tools for Creating Deliverables</h2>
+<h2 style="color: #009900">Deliverable Options</h2>
 
-This is a Body text slide.
+You got the data, cleaned it, and analyzed it. But you can't give the client an EViews workfile or a folder full of R scripts. Now you make the real money...creating the deliverable.
 
->- some stuff
-    - level two
-    - level three
+>- <b>Formats</b>
+    - Reports (Word documents, pdf, custom web pages)
+    - Presentations ([slidify](http://slidify.org/), [RStudio Presenter](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations), [Beamer](http://en.wikipedia.org/wiki/Beamer_%28LaTeX%29), PowerPoint)
+    - Web Applications ([Shiny](http://www.shinyapps.io/), custom front-end + [yhat](https://yhathq.com/) background, [GitHub pages](https://pages.github.com/), custom web portals)
+>- <b>Elements</b>
+    - Text (contextual, tied to the data)
+    - Static graphics (png, bmp) vs. Interactive ([rCharts](http://rcharts.io/), [GoogleVis](http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf), [JavaScript D3.js](http://techslides.com/over-2000-d3-js-examples-and-demos))   
+
+--- &twocol bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #009900">Static Graphics</h2>
+
+*** =left
+
+<img src=".\\assets\\img\\stacked_bar.png" height="400" width="550">
+
+*** =right
+
+<img src=".\\assets\\img\\facets_bar.png" height="400" width="550">
+
+
+--- #myslide
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #009900">Animated Graphics</h2>
+
+<script>
+$('#myslide').on('slideenter', function(){
+  $(this).find('article')
+    .append('<iframe src="http://bl.ocks.org/mbostock/raw/1256572/"></iframe>')
+});
+$('#myslide').on('slideleave', function(){
+  $(this).find('iframe').remove();
+});
+</script>
+
+<FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT>
+
+---
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #009900">Interactive Graphics</h2>
+
+```{r googlevis1, results='asis',echo=FALSE}
+suppressPackageStartupMessages(library(googleVis))
+asylum <- read.table('http://dimiter.eu/Visualizations_files/asylum/asylum_data.txt')
+
+myStateSet<-'
+{"iconType":"BUBBLE","uniColorForNonSelected":false,"orderedByX":false,"playDuration":15000,"xZoomedIn":false,"xZoomedDataMin":5,"yZoomedIn":false,"xLambda":0,"time":"2001","orderedByY":false,"xZoomedDataMax":103080,"yLambda":0,"sizeOption":"2","nonSelectedAlpha":0.4,"colorOption":"_UNIQUE_COLOR","iconKeySettings":[{"key":{"dim0":"the Netherlands"},"trailStart":"2001"}],"xAxisOption":"2","yZoomedDataMax":0.7340301974,"duration":{"multiplier":1,"timeUnit":"Y"},"yAxisOption":"3","yZoomedDataMin":0,"dimensions":{"iconDimensions":["dim0"]},"showTrails":true}
+'
+c1 <- gvisMotionChart(asylum, idvar='Country', timevar='Year', options=list(
+  height=450,width=1000, state=myStateSet))
+
+## slidify
+print(c1, "chart")
+```
+
+<FONT SIZE=2>From ["Visualizing asylum policy"](http://www.dimiter.eu/Asylum.html) - [Dimiter Toshkov](http://www.dimiter.eu/Research.html)</FONT>
 
 --- bg:#FFFFFF;
 
@@ -432,17 +513,20 @@ This is a Body text slide.
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Final Formats</h2>
+<h2 style="color: #009900">Creating Deliverables with Code</h2>
 
-This is a Body text slide.
+When the data or statistical analyses change, your deliverables should change with them! Using code to create final output ensures that your deliverables are flexible and reproducible.
 
->- some stuff
-    - level two
-    - level three
-
->- some stuff
-    - level two
-    - level three
+>- <b>HTML/CSS</b>
+    - Web pages, HTML slides (e.g. slidify), local HTML documents
+    - Relied upon by web developers, bloggers
+>- <b>[LaTeX](http://www.latex-project.org/)</b>
+    - pdf reports, journal articles, glossaries ([makeglossary](http://en.wikibooks.org/wiki/LaTeX/Glossary)), bibliographies ([BibTex](http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX))
+    - Used primarily by academics
+>- <b>Markdown</b>
+    - Same output and logic as HTML, simpler syntax
+    - Can take raw HTML, LaTeX, CSS, JS for customizing certain parts
+    - R-specific version ([R Markdown](http://rmarkdown.rstudio.com/)) allows embedded, evaluated R code chunks
 
 --- bg:#009900;
 
@@ -494,8 +578,7 @@ This is a Body text slide.
 >- some stuff
     - level two
     - level three
-    
-    
+
 --- bg:#FFFFFF;
 
 <footer>
@@ -540,7 +623,7 @@ This is a Body text slide.
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">The Checkpoint Approach (cont.)</h2>
+<h2 style="color: #009900">Case Study: Checkpoint Approach</h2>
 
 >- <b>The Setup</b>
     * Team 1 (economists) uses SAS to pull data from the Bureau of Labor Statistics and generate forecasts at the census tract, state, and national level. These forecasts are exported to ```forecast.csv```
@@ -575,33 +658,6 @@ Some concluding remarks.
 **Popover**
   
 <a class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" id='example'>Click to toggle popover</a>
-
---- &twocol
-
-# Base Camp - Static Exploratory Graphs (ggplot2) #
-
-*** =left
-
-<img src=".\\assets\\img\\stacked_bar.png" height="400" width="550">
-
-*** =right
-
-<img src=".\\assets\\img\\facets_bar.png" height="400" width="550">
-
---- #myslide
-
-# The Peak - Full Interactivity #
-
-</br>
-<script>
-$('#myslide').on('slideenter', function(){
-  $(this).find('article')
-    .append('<iframe src="http://bl.ocks.org/mbostock/raw/1256572/"></iframe>')
-});
-$('#myslide').on('slideleave', function(){
-  $(this).find('iframe').remove();
-});
-</script>
 
 --- 
 
