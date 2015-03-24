@@ -17,10 +17,10 @@ knit        : slidify::knit2slides
   <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Disclaimer</h2>
+<h2 style="color: #00C990">Disclaimer</h2>
 
 </br></br>
-<h3 style="color: #009900">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of IHS Inc.</h3>
+<h3 style="color: #00C990">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of IHS Inc.</h3>
 
 --- &twocol
 
@@ -29,83 +29,87 @@ knit        : slidify::knit2slides
   <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Contents</h2>
+<h2 style="color: #00C990">Contents</h2>
 
 *** =left
 
-<FONT COLOR="#009900" SIZE=5><b>I. Introduction</b></FONT>
+<FONT COLOR="#00C990" SIZE=5><b>I. Introduction</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>The Hellabyte Era</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>7</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#009900" SIZE=5><b>II. Reproducible Research</b></FONT>
+<FONT COLOR="#00C990" SIZE=5><b>II. Reproducible Research</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>10</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>11</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#009900" SIZE=5><b>III. Programming Principles</b></FONT>
+<FONT COLOR="#00C990" SIZE=5><b>III. Programming Principles</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Getting Started</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>13</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>The Humble Programmer</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
-</li>
 </ol>
 
 *** =right
 
-<FONT COLOR="#009900" SIZE=5><b>IV. Getting & Cleaning Data</b></FONT>
+<ol type="none">
+    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
+</ol>
+
+<FONT COLOR="#00C990" SIZE=5><b>IV. Getting & Cleaning Data</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Data Types/Sources</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>17</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#009900" SIZE=5><b>V. Statistical Analysis</b></FONT>
+<FONT COLOR="#00C990" SIZE=5><b>V. Statistical Analysis</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Tips & Tricks</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>20</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Making & Documenting Decisions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>21</FONT></span> </li>
+</ol>
+
+<FONT COLOR="#00C990" SIZE=5><b>VI. Beautiful, Reproducible Output</b></FONT>
+<ol type="none">
+    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>24</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Animated Graphics: D3.js</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
 </ol>
 
 --- &twocol
 
 <footer>
   <hr></hr>
-  <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <span style="float:right"><FONT COLOR="#00C990" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Contents</h2>
+<h2 style="color: #00C990">Contents</h2>
 
 *** =left
 
-<FONT COLOR="#009900" SIZE=5><b>VI. Beautiful, Reproducible Output</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>24</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Animated Graphics: D3.js</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Interactive Graphics: googleVis</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
+     <li><FONT COLOR="#71787D" SIZE=4>Interactive Graphics: googleVis</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Creating Deliverables with Code</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>27</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#009900" SIZE=5><b>VII. Putting it All Together</b></FONT>
+<FONT COLOR="#00C990" SIZE=5><b>VII. Putting it All Together</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Literate Statistical Programming</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>29</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>30</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>31</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Case Study: Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>32</FONT></span> </li>
-</ol>
-
-*** =right
-
-<ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>The Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>33</FONT></span> </li>
     <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>34</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#009900" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
+<FONT COLOR="#00C990" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
 
---- bg:#DB94B8;
+*** =right
+
+
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section I.</h2>
 <hr></hr>
@@ -138,11 +142,23 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#8F006B" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #A53389">Personal Introduction</h2>
+
+Some stuff about Andrew McAfee, IoT, embedded systems
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Economics in the Age of Big Data</h2>
+<h2 style="color: #00C990">Economics in the Age of Big Data</h2>
 
 **From [Einav & Levin (2014)](http://www.sciencemag.org/content/346/6210/1243089.full.pdf?keytype=ref&siteid=sci&ijkey=Jj7wCy7hhth4M):**
 
@@ -156,7 +172,7 @@ knit        : slidify::knit2slides
 </br></br>
 >- Other Commentary: [Einav (2013)](http://www.stanford.edu/~leinav/pubs/IPE2014.pdf) | [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) | [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf) | [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/)
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section II.</h2>
 <hr></hr>
@@ -167,11 +183,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; II. Reproducible Research</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">What is Reproducibility?</h2>
+<h2 style="color: #00C990">What is Reproducibility?</h2>
 
 >- NOT about replication in the empirical sense
     - i.e. "Do other people with different data find similar results?" 
@@ -185,11 +201,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; II. Reproducible Research</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Why Should I Care?</h2>
+<h2 style="color: #00C990">Why Should I Care?</h2>
 
 >- <b>[Clients are demanding](http://www.thebylinegroup.com/article6.html) --> they might change their minds many times</b>
     * Need to make changes (including reproduction of deliverables) quickly
@@ -206,11 +222,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; II. Reproducible Research</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Reproducibility Checklist</h2>
+<h2 style="color: #00C990">Reproducibility Checklist</h2>
 
 Guiding principles for [conducting reproducible analyses](https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md):
 </br></br>
@@ -241,7 +257,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 - Save data + code for generating output
 - Edit documentation as you go
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section III.</h2>
 <hr></hr>
@@ -252,11 +268,11 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; III. Programming Principles</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Getting Started</h2>
+<h2 style="color: #00C990">Getting Started</h2>
 
 Reproducible economic research requires programming. There is no way around it. Here are a few lessons I've learned:
 
@@ -274,11 +290,11 @@ Reproducible economic research requires programming. There is no way around it. 
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; III. Programming Principles</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">The Humble Programmer</h2>
+<h2 style="color: #00C990">The Humble Programmer</h2>
 
 >- From <i>Djikstra's</i> (1972) famous talk, "The Humble Programmer".
 >- Avoid putting clever tricks in your code just to prove how clever you are:
@@ -296,11 +312,11 @@ Reproducible economic research requires programming. There is no way around it. 
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; III. Programming Principles</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Introduction to Version Control</h2>
+<h2 style="color: #00C990">Introduction to Version Control</h2>
 
 "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later." - [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
@@ -311,7 +327,7 @@ Reproducible economic research requires programming. There is no way around it. 
 
 <center><img src=".\\assets\\img\\git_log.png"></center>
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section IV.</h2>
 <hr></hr>
@@ -322,11 +338,11 @@ Reproducible economic research requires programming. There is no way around it. 
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; IV. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Data Types/Sources</h2>
+<h2 style="color: #00C990">Data Types/Sources</h2>
 
 Now we have the guiding motivation. Let's start building a real project! We begin, as always, with the data.
 
@@ -345,11 +361,11 @@ Now we have the guiding motivation. Let's start building a real project! We begi
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; IV. Getting & Cleaning Data</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Data Manipulation</h2>
+<h2 style="color: #00C990">Data Manipulation</h2>
 
 Not all data are tidy and clean.
 
@@ -364,7 +380,7 @@ Not all data are tidy and clean.
     - Need to make some assumptions to backcast to 1990
     - Put assumptions (maybe a CAGR) in a program scalar, change it and see what the results look like
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section V.</h2>
 <hr></hr>
@@ -375,11 +391,11 @@ Not all data are tidy and clean.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; V. Statistical Analysis</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Tips & Tricks</h2>
+<h2 style="color: #00C990">Tips & Tricks</h2>
 
 >- <b>Explicitly specify defaults</b>
     - Many statistical software have algorithms with preset defaults
@@ -397,11 +413,11 @@ Not all data are tidy and clean.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; V. Statistical Analysis</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Making & Documenting Decisions</h2>
+<h2 style="color: #00C990">Making & Documenting Decisions</h2>
 
 >- <b>Assumptions are unavoiable</b>
     - In the absence of data, we use heuristic decision-making - [Kahneman(2011)](http://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
@@ -413,7 +429,7 @@ Not all data are tidy and clean.
     - If a relationship is truly linear, using more complex models won't improve performance - [Pang-Ning et. al (2006)](http://www-users.cs.umn.edu/~kumar/dmbook/index.php)
     - Where there exists no clear choice between competing alternatives, no shame in decisions which "minimize the sum of squared client questions"
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section VI.</h2>
 <hr></hr>
@@ -424,11 +440,11 @@ Not all data are tidy and clean.
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Deliverable Options</h2>
+<h2 style="color: #00C990">Deliverable Options</h2>
 
 You got the data, cleaned it, and analyzed it. But you can't give the client an EViews workfile or a folder full of R scripts. Now you make the real money...creating the deliverable.
 
@@ -444,11 +460,11 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Static Graphics</h2>
+<h2 style="color: #00C990">Static Graphics</h2>
 
 *** =left
 
@@ -462,11 +478,11 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<span><h2 style="color: #009900">Animated Graphics</h2> <FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT></span>
+<span><h2 style="color: #00C990">Animated Graphics</h2> <FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT></span>
 
 <script>
 $('#myslide').on('slideenter', function(){
@@ -482,11 +498,11 @@ $('#myslide').on('slideleave', function(){
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Interactive Graphics</h2>
+<h2 style="color: #00C990">Interactive Graphics</h2>
 
 ```{r googlevis1, results='asis',echo=FALSE}
 suppressPackageStartupMessages(library(googleVis))
@@ -508,11 +524,11 @@ print(c1, "chart")
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Creating Deliverables with Code</h2>
+<h2 style="color: #00C990">Creating Deliverables with Code</h2>
 
 When the data or statistical analyses change, your deliverables should change with them! Using code to create final output ensures that your deliverables are flexible and reproducible.
 
@@ -527,7 +543,7 @@ When the data or statistical analyses change, your deliverables should change wi
     - Can take raw HTML, LaTeX, CSS, JS for customizing certain parts
     - R-specific version ([R Markdown](http://rmarkdown.rstudio.com/)) allows embedded, evaluated R code chunks
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section VII.</h2>
 <hr></hr>
@@ -538,11 +554,11 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Literate Statistical Programming</h2>
+<h2 style="color: #00C990">Literate Statistical Programming</h2>
 
 >- <b>Main Idea</b>
     - Usual workflow: Do stuff to data, get the output, use it to create a final report
@@ -561,11 +577,11 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Multi-Software Solutions</h2>
+<h2 style="color: #00C990">Multi-Software Solutions</h2>
 
 All software have strengths and weaknesses. You might, for example, want to do data wrangling in R, forecasting in EViews, and deliverable preparation in EXcel. How can this be accomplished? A few options are given below.
 
@@ -583,11 +599,11 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Collaboration with Git</h2>
+<h2 style="color: #00C990">Collaboration with Git</h2>
 
 >- <b>Put project files in a shared repo</b>
     - Examples: GitHub, Google Drive, Dropbox, shared network (corporate setting), BitBucket, others
@@ -604,11 +620,11 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Case Study: Collaboration with Git</h2>
+<h2 style="color: #00C990">Case Study: Collaboration with Git</h2>
 
 <b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation). Without version control, this is the result:
 
@@ -618,11 +634,11 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">The Checkpoint Approach</h2>
+<h2 style="color: #00C990">The Checkpoint Approach</h2>
 
 >- <b>Main Idea</b>
     * Decide, early on, the format of your outputs. Tell your collaborators.
@@ -638,11 +654,11 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Case Study: Checkpoint Approach</h2>
+<h2 style="color: #00C990">Case Study: Checkpoint Approach</h2>
 
 >- <b>The Setup</b>
     * Team 1 (economists) uses SAS to pull data from the Bureau of Labor Statistics and generate forecasts at the census tract, state, and national level. These forecasts are exported to ```forecast.csv```
@@ -651,7 +667,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 >- <b>What Do You Notice?</b>
     * Freezing the output/input formats strategically lets teams work in isolation without breaking each others' processes
 
---- bg:#009900;
+--- bg:#3C8C75;
 
 <h2 style="color: #FFFFFF">Section VIII.</h2>
 <hr></hr>
@@ -662,11 +678,11 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#009900" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VIII. Concluding Remarksr</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #009900">Some Title</h2>
+<h2 style="color: #00C990">Some Title</h2>
 
 Some concluding remarks.
 
@@ -691,6 +707,7 @@ Some concluding remarks.
 [6] http://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height 
 [7] http://stackoverflow.com/questions/6874402/remove-space-above-and-below-p-tag-html 
 [8] https://github.com/ramnathv/slidify/issues/234 
-[9] http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element 
+[9] http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element
+[10] [Contrasting Color Picker](http://www.colorsontheweb.com/colorwizard.asp)
 
 

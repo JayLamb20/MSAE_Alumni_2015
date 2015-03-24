@@ -371,7 +371,7 @@ pre code {
 }
 
 .title-slide {
-  background-image:url("./../../../../assets/img/lightbulb.jpg");
+  background-image:url("./../../../../assets/img/minimalist_computer.jpg");
   background-size: cover;
 }
 
@@ -381,7 +381,7 @@ pre code {
 
 .title-slide hgroup > h1, 
 .title-slide hgroup > h2 {
-  color: /*#EF5150;*/ #FF9900;
+  color: /*#FF9900;*/ /*#00C990*/ #62FFD2;
 }
 
 
