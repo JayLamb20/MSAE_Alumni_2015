@@ -120,11 +120,11 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#8F006B" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #A53389">Personal Introduction</h2>
+<h2 style="color: #00C990">Personal Introduction</h2>
 
 >- <b>My Marquette Experience:</b>
     - B.S., Economics & Marketing (2013)
@@ -142,13 +142,42 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#8F006B" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #A53389">Personal Introduction</h2>
+<h2 style="color: #00C990">The Hellabyte Era</h2>
 
-Some stuff about Andrew McAfee, IoT, embedded systems
+>- <b>Andrew McAfee, [Washington Post](http://www.washingtonpost.com/blogs/innovations/wp/2013/10/25/welcome-to-the-hellabyte-era-as-in-a-helluva-lot-of-data/) 2013: </b> 
+    > "We started by measuring data creation in kilobytes and megabytes and gigabytes and we are now at exabytes,         
+    > zettabytes and yottabytes.
+    > ...
+    > Andrew McAfee and others have actually proposed that we settle on <b>hellabyte, as in 'helluva lot of data'</b>"
+
+>- Drivers Behind the "[Data Deluge](http://www.economist.com/node/15579717)"
+    - Proliferation of [embedded systems](http://leeseshia.org/) (data creators)
+    - Resulting IP namespace explosion - [IPv6](http://securityintelligence.com/the-importance-of-ipv6-and-the-internet-of-things/#.VRFU4_nF_3c)
+    - Better tools for using high-dimension datasets: 
+    - [Massive Parallelization](http://www.zdnet.com/article/mapreduce-and-mpp-two-sides-of-the-big-data-coin/) | [Machine Learning](http://en.wikipedia.org/wiki/Machine_learning) | [Distributed Storage](http://en.wikipedia.org/wiki/Apache_Hadoop)
+    - Cloud Computing (e.g. [AWS](http://aws.amazon.com/what-is-cloud-computing/)) --> Convert fixed cost of capacity to variable cost
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #00C990">"Big Data" is Not the Whole Story</h2>
+
+<center><img src=".\\assets\\img\\dilbert_big_data.gif"></center>
+<FONT SIZE=2>&nbsp;&nbsp;&nbsp;Image credit: Scott Adams, [May 07, 2008](http://dilbert.com/strip/2008-05-07)</FONT>
+
+>- <b> Rich Data </b>
+    - [Berners-Lee (2014)](http://www.theguardian.com/technology/2014/oct/08/sir-tim-berners-lee-speaks-out-on-data-ownership): How we combine data is more important than how much we have
+    - Decision-making is context dependent --> We can rebuild context with [recombinant data](http://www.google.com/patents/US8768873)
+    - Imagine new transactions - [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) --> reduction of information asymmetries 
 
 --- bg:#FFFFFF;
 
@@ -505,14 +534,14 @@ $('#myslide').on('slideleave', function(){
 <h2 style="color: #00C990">Interactive Graphics</h2>
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Sun Mar 22 21:59:46 2015 -->
+<!-- Mon Mar 23 08:31:14 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID110c153e1781 () {
+function gvisDataMotionChartID101c7f46dfc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2614,15 +2643,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID110c153e1781() {
-var data = gvisDataMotionChartID110c153e1781();
+function drawChartMotionChartID101c7f46dfc() {
+var data = gvisDataMotionChartID101c7f46dfc();
 var options = {};
 options["width"] =   1000;
 options["height"] =    450;
 options["state"] = "\n{\"iconType\":\"BUBBLE\",\"uniColorForNonSelected\":false,\"orderedByX\":false,\"playDuration\":15000,\"xZoomedIn\":false,\"xZoomedDataMin\":5,\"yZoomedIn\":false,\"xLambda\":0,\"time\":\"2001\",\"orderedByY\":false,\"xZoomedDataMax\":103080,\"yLambda\":0,\"sizeOption\":\"2\",\"nonSelectedAlpha\":0.4,\"colorOption\":\"_UNIQUE_COLOR\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"the Netherlands\"},\"trailStart\":\"2001\"}],\"xAxisOption\":\"2\",\"yZoomedDataMax\":0.7340301974,\"duration\":{\"multiplier\":1,\"timeUnit\":\"Y\"},\"yAxisOption\":\"3\",\"yZoomedDataMin\":0,\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"showTrails\":true}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID110c153e1781')
+    document.getElementById('MotionChartID101c7f46dfc')
     );
     chart.draw(data,options);
     
@@ -2646,9 +2675,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID110c153e1781);
+callbacks.push(drawChartMotionChartID101c7f46dfc);
 })();
-function displayChartMotionChartID110c153e1781() {
+function displayChartMotionChartID101c7f46dfc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2672,11 +2701,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID110c153e1781"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID101c7f46dfc"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID110c153e1781" 
+<div id="MotionChartID101c7f46dfc" 
   style="width: 1000; height: 450;">
 </div>
 
@@ -2716,7 +2745,7 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2739,7 +2768,7 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2761,7 +2790,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2782,7 +2811,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2796,7 +2825,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2816,7 +2845,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VII. Putting it All Together</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
@@ -2840,13 +2869,24 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VIII. Concluding Remarksr</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Some Title</h2>
+<h2 style="color: #00C990">In Summary...</h2>
 
-Some concluding remarks.
+>- <b>Economics is Changing</b>
+    - Complexity problems are coming into focus
+    - The nature of transactions and information flow is changing rapidly
+    - New and richer data sources are available
+>- <b>Practicing Economics in This Environment</b>
+    - Learn to code...not just the stats, but deliverable creation too
+    - Reproducibility is critical
+    - Don't change with your clients. Change before them.
+>- <b>This Could be Really Fun</b>
+    - You can do [this](http://www.brookings.edu/research/reports2/2014/11/06-mapping-freight-tomer-kane#%2EVFuHgBW0-Dq%2E)
+    - And [this](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html?pagewanted=all&_r=0)
+    - And even [this](http://atlas.cid.harvard.edu/)
 
 ---
 

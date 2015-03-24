@@ -1338,7 +1338,7 @@ aside.gdbar img {
 
 /* line 924, ../scss/default.scss */
 .title-slide hgroup {
- top: 20px 
+ top: 40px 
 }
 /* line 927, ../scss/default.scss */
 .title-slide hgroup h1 {
@@ -1350,7 +1350,7 @@ aside.gdbar img {
 .title-slide hgroup h2 {
   font-size: 34px;
   color: #FFFFFF;
-  font-weight: inherit; margin-bottom:400px;}
+  font-weight: inherit; margin-bottom:350px;}
 /* line 940, ../scss/default.scss */
 .title-slide hgroup p {
   font-size: 20px;
