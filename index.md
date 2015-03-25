@@ -36,46 +36,46 @@ knit        : slidify::knit2slides
 <FONT COLOR="#00C990" SIZE=5><b>I. Introduction</b></FONT>
 <ol type="none">
     <li><FONT COLOR="#71787D" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>The Hellabyte Era</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>The Hellabyte Era</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>"Big Data" is Not the Whole Story</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>II. Reproducible Research</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>10</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>12</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>13</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>III. Programming Principles</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Getting Started</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>13</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>The Humble Programmer</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>14</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Getting Started</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
 </ol>
 
 *** =right
 
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>The Humble Programmer</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>16</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>17</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>IV. Getting & Cleaning Data</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Data Types/Sources</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>17</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>18</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Data Types/Sources</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>19</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>20</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>V. Statistical Analysis</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Tips & Tricks</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>20</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Making & Documenting Decisions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>21</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Tips & Tricks</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>22</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Making & Documenting Decisions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>VI. Beautiful, Reproducible Output</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>24</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Animated Graphics: D3.js</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
 </ol>
 
 --- &twocol
@@ -90,18 +90,19 @@ knit        : slidify::knit2slides
 *** =left
 
 <ol type="none">
-     <li><FONT COLOR="#71787D" SIZE=4>Interactive Graphics: googleVis</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Creating Deliverables with Code</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>27</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Animated Graphics: D3.js</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>27</FONT></span> </li>
+     <li><FONT COLOR="#71787D" SIZE=4>Interactive Graphics: googleVis</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>28</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Creating Deliverables with Code</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>29</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=5><b>VII. Putting it All Together</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Literate Statistical Programming</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>29</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>30</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>31</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>32</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>The Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>33</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>34</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Literate Statistical Programming</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>31</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Multi-Software Solutions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>32</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>33</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Collaboration with Git</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>34</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>The Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>35</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>36</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#00C990" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
@@ -534,14 +535,14 @@ $('#myslide').on('slideleave', function(){
 <h2 style="color: #00C990">Interactive Graphics</h2>
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Mon Mar 23 08:31:14 2015 -->
+<!-- Sun Mar 22 21:59:46 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID101c7f46dfc () {
+function gvisDataMotionChartID110c153e1781 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2643,15 +2644,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID101c7f46dfc() {
-var data = gvisDataMotionChartID101c7f46dfc();
+function drawChartMotionChartID110c153e1781() {
+var data = gvisDataMotionChartID110c153e1781();
 var options = {};
 options["width"] =   1000;
 options["height"] =    450;
 options["state"] = "\n{\"iconType\":\"BUBBLE\",\"uniColorForNonSelected\":false,\"orderedByX\":false,\"playDuration\":15000,\"xZoomedIn\":false,\"xZoomedDataMin\":5,\"yZoomedIn\":false,\"xLambda\":0,\"time\":\"2001\",\"orderedByY\":false,\"xZoomedDataMax\":103080,\"yLambda\":0,\"sizeOption\":\"2\",\"nonSelectedAlpha\":0.4,\"colorOption\":\"_UNIQUE_COLOR\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"the Netherlands\"},\"trailStart\":\"2001\"}],\"xAxisOption\":\"2\",\"yZoomedDataMax\":0.7340301974,\"duration\":{\"multiplier\":1,\"timeUnit\":\"Y\"},\"yAxisOption\":\"3\",\"yZoomedDataMin\":0,\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"showTrails\":true}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID101c7f46dfc')
+    document.getElementById('MotionChartID110c153e1781')
     );
     chart.draw(data,options);
     
@@ -2675,9 +2676,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID101c7f46dfc);
+callbacks.push(drawChartMotionChartID110c153e1781);
 })();
-function displayChartMotionChartID101c7f46dfc() {
+function displayChartMotionChartID110c153e1781() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2701,11 +2702,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID101c7f46dfc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID110c153e1781"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID101c7f46dfc" 
+<div id="MotionChartID110c153e1781" 
   style="width: 1000; height: 450;">
 </div>
 
@@ -2819,7 +2820,9 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation). Without version control, this is the result:
 
-<span><img src=".\\assets\\img\\version_control_data.png" height="400" width="400">&nbsp;&nbsp;&nbsp;<img src=".\\assets\\img\\version_control_prog.png" height="400" width="400"></span>
+</br>
+
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=".\\assets\\img\\version_control_data.png" height="500" width="400"></span><span style="float:right"><img src=".\\assets\\img\\version_control_prog.png" height="500" width="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 --- bg:#FFFFFF;
 
@@ -2838,7 +2841,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
     * Different teams can work in parallel on their pieces
     * Mitigate the threat of "breaking everything", reduce time spent retrofitting
 >- <b>An Analogy</b>
-    * Kellogg's engineers might make changes to the formula to make Rice Krispies sweeter or crunchier...but the result will always be a dry solid stored in a rectangular box.
+    * Kellogg's engineers might make changes to the Rice Krispies formula to make them sweeter or crunchier...but the result will always be a dry solid stored in a rectangular box.
     * Partners downstream (e.g. retailers) can make improvements to their processes (e.g. inventory management, automated checkouts) with confidence that these improvements will always be compatible with changes from Kellogg's
 
 --- bg:#FFFFFF;
@@ -2870,7 +2873,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 <footer>
   <hr></hr>
   <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
-  <FONT COLOR="#71787D" SIZE=3> &nbsp; VIII. Concluding Remarksr</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+  <FONT COLOR="#71787D" SIZE=3> &nbsp; VIII. Concluding Remarks</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
 <h2 style="color: #00C990">In Summary...</h2>
@@ -2879,7 +2882,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
     - Complexity problems are coming into focus
     - The nature of transactions and information flow is changing rapidly
     - New and richer data sources are available
->- <b>Practicing Economics in This Environment</b>
+>- <b>Economists Should Change Too</b>
     - Learn to code...not just the stats, but deliverable creation too
     - Reproducibility is critical
     - Don't change with your clients. Change before them.
@@ -2888,28 +2891,83 @@ All software have strengths and weaknesses. You might, for example, want to do d
     - And [this](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html?pagewanted=all&_r=0)
     - And even [this](http://atlas.cid.harvard.edu/)
 
----
+--- bg:#FFFFFF;
 
-# popover test #
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#71787D" SIZE=3> &nbsp; VIII. Concluding Remarks</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
 
-**Popover**
-  
-<a class="btn btn-large btn-danger" rel="popover" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" id='example'>Click to toggle popover</a>
+<h2 style="color: #00C990">Thank You for Your Time</h2>
 
---- 
+</br>
 
+<center><b>Not sure what you said, but the slides looked nice!</b></center>
 
-# References
+</br>
 
-[1] https://github.com/ramnathv/slidify/issues/393 
-[2] https://raw.githubusercontent.com/ramnathv/slidifyExamples/gh-pages/examples/io2012/index.md 
-[3] https://github.com/ramnathv/slidify/issues/312 
-[4] http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html 
-[5] http://www.alternetwebdesign.com/htmltutorial/lesson3.htm 
-[6] http://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height 
-[7] http://stackoverflow.com/questions/6874402/remove-space-above-and-below-p-tag-html 
-[8] https://github.com/ramnathv/slidify/issues/234 
-[9] http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element
-[10] [Contrasting Color Picker](http://www.colorsontheweb.com/colorwizard.asp)
+<center>Umm thanks? You can click through the slides on [here](http://jaylamb20.github.io/MSAE_Alumni_2015/index.html#1) or view the raw code [here](https://github.com/JayLamb20/MSAE_Alumni_2015).
 
+</br>
+
+<center><b>Questions? Comments? Profanity-Laced Criticisms?</b></center>
+
+</br>
+
+ <center>[jaylamb20@gmail.com](jaylamb20@gmail.com) | [Twitter](https://twitter.com/i/notifications) | [LinkedIN](https://www.linkedin.com/in/jameslamb1) | [GitHub](https://github.com/JayLamb20)</center>
+    
+</br>
+    
+<center><b>Want to Work with me at IHS? Or Pay My Team to Forecast Stuff?</b></center>
+
+<br>
+
+<center>[james.lamb@ihs.com](james.lamb@ihs.com)</center>
+
+--- bg:#3C8C75;
+
+<h2 style="color: #FFFFFF">Appendices</h2>
+<hr></hr>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <FONT COLOR="#71787D" SIZE=3>Appendices</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #00C990">Appendix A. Training Resources</h2>
+
+The list below is given only as a starting point. There are a LOT of resources out there. Go forth and explore!
+</br>
+
+- <b>General Data Science</b> - [JHU MOOC Specialization](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage) | [edX](https://www.edx.org/) | [kaggle](http://www.kaggle.com/) | ["Open Source DS M.S"](http://datasciencemasters.org/)
+- <b>Git/GitHub</b> - [Code School](https://www.codeschool.com/paths/git) | [GitHub-Recommend Sources](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+- <b>EViews</b> - [Webinars](http://www.eviews.com/Training/webinars.html) | [Demo](http://register1.eviews.com/demo/) | [Forums](http://forums.eviews.com/)
+- <b>Python</b> - [Rice U MOOCs](https://www.coursera.org/specialization/fundamentalscomputing2/37?utm_medium=listingPage) | [CodeAcademy](http://www.codecademy.com/tracks/python) | [LearnPython](http://www.learnpython.org/) | [UMich MOOC](https://www.coursera.org/course/pythonlearn)
+- <b>R</b> - [DataCamp](https://www.datacamp.com/) | [CRAN](http://cran.r-project.org/) | [R Reference Card](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)
+- <b>HTML/CSS</b> - [CodeAcademy](http://www.codecademy.com/en/tracks/web) | [w3schools](http://www.w3schools.com/html/) | [CodeSchool](https://www.codeschool.com/paths/html-css)
+- <b>LaTeX</b> - [WikiBooks](http://en.wikibooks.org/wiki/LaTeX) | [CTAN](https://www.ctan.org/) | [MiKTex Download](http://miktex.org/download)
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <FONT COLOR="#71787D" SIZE=3>Appendices</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
+</footer>
+
+<h2 style="color: #00C990">Appendix B. Key Academic Papers</h2>
+
+The resources listed here have shaped my view of the near-term future of economic thought and economic professions. I hope you find them as interesting and useful as I did.
+
+- [Arthur (2014)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&). *Complexity and the Economy*.
+- [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/). Ontology for Fun and Profit.
+- [Datta (2014)](http://dspace.mit.edu/handle/1721.1/86935). Future IoT.
+- [Datta (n.d.)](http://dspace.mit.edu/bitstream/handle/1721.1/41897/WiFi%20Meet%20FuFi%20_%20MIT%20ESD%20WP.pdf?sequence=1). WiFi Meet FuFi: Disruptive Innovation in Logistics Catalysed by Energy.
+- [Einav & Levin (2014)](http://www.sciencemag.org/content/346/6210/1243089.abstract). Economics in the age of big data.
+- [Hausmann & Hidalgo, et. al (2011)](http://atlas.cid.harvard.edu/book/). *The Atlas of Economic Complexity*.
+- [Kahneman (2013)](http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555). *Thinking, Fast and Slow*.
+- [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf). Beyond Big Data.
+- [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf). Big Data: New Tricks for Econometrics.
 
