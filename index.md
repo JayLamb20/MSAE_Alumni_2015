@@ -360,7 +360,7 @@ Reproducible economic research requires programming. There is no way around it. 
 "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later." - [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 - The software: [Git](http://en.wikipedia.org/wiki/Git_%28software%29) | [GitHub](https://github.com/JayLamb20/MSAE_Alumni_2015/commits/gh-pages) (online extension)
-    - Distributed (read: "free") revision control and collaboration system
+    - Distributed revision control and collaboration system
     - Tracks project history, lets you revert back to old versions
 - An example:
 
@@ -544,14 +544,14 @@ $('#myslide').on('slideleave', function(){
 <h2 style="color: #00C990">Interactive Graphics: googleVis</h2>
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Mon Mar 23 08:31:14 2015 -->
+<!-- Sun Mar 22 21:59:46 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID101c7f46dfc () {
+function gvisDataMotionChartID110c153e1781 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2653,15 +2653,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID101c7f46dfc() {
-var data = gvisDataMotionChartID101c7f46dfc();
+function drawChartMotionChartID110c153e1781() {
+var data = gvisDataMotionChartID110c153e1781();
 var options = {};
 options["width"] =   1000;
 options["height"] =    450;
 options["state"] = "\n{\"iconType\":\"BUBBLE\",\"uniColorForNonSelected\":false,\"orderedByX\":false,\"playDuration\":15000,\"xZoomedIn\":false,\"xZoomedDataMin\":5,\"yZoomedIn\":false,\"xLambda\":0,\"time\":\"2001\",\"orderedByY\":false,\"xZoomedDataMax\":103080,\"yLambda\":0,\"sizeOption\":\"2\",\"nonSelectedAlpha\":0.4,\"colorOption\":\"_UNIQUE_COLOR\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"the Netherlands\"},\"trailStart\":\"2001\"}],\"xAxisOption\":\"2\",\"yZoomedDataMax\":0.7340301974,\"duration\":{\"multiplier\":1,\"timeUnit\":\"Y\"},\"yAxisOption\":\"3\",\"yZoomedDataMin\":0,\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"showTrails\":true}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID101c7f46dfc')
+    document.getElementById('MotionChartID110c153e1781')
     );
     chart.draw(data,options);
     
@@ -2685,9 +2685,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID101c7f46dfc);
+callbacks.push(drawChartMotionChartID110c153e1781);
 })();
-function displayChartMotionChartID101c7f46dfc() {
+function displayChartMotionChartID110c153e1781() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2711,11 +2711,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID101c7f46dfc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID110c153e1781"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID101c7f46dfc" 
+<div id="MotionChartID110c153e1781" 
   style="width: 1000; height: 450;">
 </div>
 
@@ -2967,7 +2967,7 @@ The list below is given only as a starting point. There are a LOT of resources o
 
 <h2 style="color: #00C990">Appendix B. Key Academic Papers</h2>
 
-The resources listed here have shaped my view of the near-term future of economic thought and economic professions. I hope you find them as interesting and useful as I did.
+The resources listed here have shaped my view of the near-term future of economic thought and the economics profession. I hope you find them as interesting and useful as I did.
 
 - [Arthur (2014)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&). *Complexity and the Economy*.
 - [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/). Ontology for Fun and Profit.
