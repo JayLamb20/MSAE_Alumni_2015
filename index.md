@@ -105,10 +105,19 @@ knit        : slidify::knit2slides
     <li><FONT COLOR="#71787D" SIZE=4>Case Study: Checkpoint Approach</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>36</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#00C990" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
-
 *** =right
 
+<FONT COLOR="#00C990" SIZE=4><b>VIII. Concluding Remarks</b></FONT>
+<ol type="none">
+    <li><FONT COLOR="#71787D" SIZE=4>Summary</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>38</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Contact Information</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>39</FONT></span> </li>
+</ol>
+
+<FONT COLOR="#00C990" SIZE=4><b>Appendices</b></FONT>
+<ol type="none">
+    <li><FONT COLOR="#71787D" SIZE=4>Training Resources</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>i</FONT></span> </li>
+    <li><FONT COLOR="#71787D" SIZE=4>Key Academic Papers</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>ii</FONT></span> </li>
+</ol>
 
 --- bg:#3C8C75;
 
@@ -308,7 +317,7 @@ Reproducible economic research requires programming. There is no way around it. 
 
 >- <b>Use a preamble</b>
     - Your code should start with a set of key strings, scalars to be used throughout
-    - These might include filepaths, mnemonic lists, samples (for time series)
+    - These might include file paths, mnemonic lists, samples (for time series)
 >- <b>Keep it modular</b>
     - Different functions should be accomplished by separate subroutines
     - Facilitates trial-and-error testing; Improves readability of your code
@@ -330,13 +339,13 @@ Reproducible economic research requires programming. There is no way around it. 
 >- Avoid putting clever tricks in your code just to prove how clever you are:
     > "I suggest the we confine ourselves to ... intellectually manageable problems."
 
->- More parsmionious code is not necessarily desirable:
+>- More parsimonious code is not necessarily desirable:
     > "...one programmer places a one-line program on the desk of another and either he proudly tells 
     > what is does and adds the questions "Can you code this in less symbols?" - as if this were of 
     > any conceptual relevance!- or he just asks 'Guess what it does!' "
     
 >- A given programming task can be approached many ways 
-    - A commitment to "intellectually managable" programs reduces the set of possible programs to choose from. 
+    - A commitment to "intellectually manageable" programs reduces the set of possible programs to choose from. 
 
 --- bg:#FFFFFF;
 
@@ -383,9 +392,9 @@ Now we have the guiding motivation. Let's start building a real project! We begi
     - Small-Medium (less than 1m observations) --> Spreadsheets
     - Large (a few GB) --> MySQL, other relational DBs
     - Very Large (more than a few GB) --> [NoSQL DBs](http://en.wikipedia.org/wiki/NoSQL), [HDFS](http://en.wikipedia.org/wiki/Apache_Hadoop#HDFS), [Cassandra](http://en.wikipedia.org/wiki/Apache_Cassandra)
->- <b>Consider diffability</b>
-    - Diffable (able to track in Git): csv, txt, vbs, other text files
-    - Non-diffable: [binary files](http://en.wikipedia.org/wiki/Binary_file); More on this [HERE](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes)
+>- <b>Consider diff-ability</b>
+    - Diff-able (able to track in Git): csv, txt, vbs, other text files
+    - Non-diff-able: [binary files](http://en.wikipedia.org/wiki/Binary_file); More on this [HERE](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes)
 
 --- bg:#FFFFFF;
 
@@ -449,7 +458,7 @@ Not all data are tidy and clean.
 
 <h2 style="color: #00C990">Making & Documenting Decisions</h2>
 
->- <b>Assumptions are unavoiable</b>
+>- <b>Assumptions are unavoidable</b>
     - In the absence of data, we use heuristic decision-making - [Kahneman(2011)](http://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
     - When problems are not well-defined, we form our own hypotheses and use them to fill gaps in the data - [Arthur (2014)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&)
 >- <b>Document these decisions</b>
@@ -494,7 +503,7 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Static Graphics</h2>
+<h2 style="color: #00C990">Static Graphics: ggplot2</h2>
 
 *** =left
 
@@ -512,7 +521,7 @@ You got the data, cleaned it, and analyzed it. But you can't give the client an 
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<span><h2 style="color: #00C990">Animated Graphics</h2> <FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT></span>
+<span><h2 style="color: #00C990">Animated Graphics: D3.js</h2> <FONT SIZE=2>Via bl.ocks.org: [About](http://bl.ocks.org/mbostock/raw/1256572/) | [Graph](http://bl.ocks.org/mbostock/1256572/)</FONT></span>
 
 <script>
 $('#myslide').on('slideenter', function(){
@@ -532,17 +541,17 @@ $('#myslide').on('slideleave', function(){
   <FONT COLOR="#71787D" SIZE=3> &nbsp; VI. Beautiful, Reproducible Output</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Practicing Economics in the Hellabyte Era</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Interactive Graphics</h2>
+<h2 style="color: #00C990">Interactive Graphics: googleVis</h2>
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
-<!-- Sun Mar 22 21:59:46 2015 -->
+<!-- Mon Mar 23 08:31:14 2015 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID110c153e1781 () {
+function gvisDataMotionChartID101c7f46dfc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2644,15 +2653,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID110c153e1781() {
-var data = gvisDataMotionChartID110c153e1781();
+function drawChartMotionChartID101c7f46dfc() {
+var data = gvisDataMotionChartID101c7f46dfc();
 var options = {};
 options["width"] =   1000;
 options["height"] =    450;
 options["state"] = "\n{\"iconType\":\"BUBBLE\",\"uniColorForNonSelected\":false,\"orderedByX\":false,\"playDuration\":15000,\"xZoomedIn\":false,\"xZoomedDataMin\":5,\"yZoomedIn\":false,\"xLambda\":0,\"time\":\"2001\",\"orderedByY\":false,\"xZoomedDataMax\":103080,\"yLambda\":0,\"sizeOption\":\"2\",\"nonSelectedAlpha\":0.4,\"colorOption\":\"_UNIQUE_COLOR\",\"iconKeySettings\":[{\"key\":{\"dim0\":\"the Netherlands\"},\"trailStart\":\"2001\"}],\"xAxisOption\":\"2\",\"yZoomedDataMax\":0.7340301974,\"duration\":{\"multiplier\":1,\"timeUnit\":\"Y\"},\"yAxisOption\":\"3\",\"yZoomedDataMin\":0,\"dimensions\":{\"iconDimensions\":[\"dim0\"]},\"showTrails\":true}\n";
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID110c153e1781')
+    document.getElementById('MotionChartID101c7f46dfc')
     );
     chart.draw(data,options);
     
@@ -2676,9 +2685,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID110c153e1781);
+callbacks.push(drawChartMotionChartID101c7f46dfc);
 })();
-function displayChartMotionChartID110c153e1781() {
+function displayChartMotionChartID101c7f46dfc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2702,11 +2711,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID110c153e1781"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID101c7f46dfc"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID110c153e1781" 
+<div id="MotionChartID101c7f46dfc" 
   style="width: 1000; height: 450;">
 </div>
 
@@ -2775,7 +2784,7 @@ When the data or statistical analyses change, your deliverables should change wi
 
 <h2 style="color: #00C990">Multi-Software Solutions</h2>
 
-All software have strengths and weaknesses. You might, for example, want to do data wrangling in R, forecasting in EViews, and deliverable preparation in EXcel. How can this be accomplished? A few options are given below.
+All software have strengths and weaknesses. You might, for example, want to do data wrangling in R, forecasting in EViews, and deliverable preparation in Excel. How can this be accomplished? A few options are given below.
 
 >- <b>Read/write: "baton-passing"</b>
     - Step 1 gets raw data, does stuff, exports to a csv
@@ -2818,7 +2827,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 <h2 style="color: #00C990">Case Study: Collaboration with Git</h2>
 
-<b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, databanking, deliverable creation). Without version control, this is the result:
+<b>Use case:</b> You are working on a forecasting project for a large diversified manufacturer. The client wants country-level revenue forecasts for three divisions, each of which has 5 business units. You and three colleagues (lets call them Farrokh, Joe, and David) divvy up the work, with your colleagues taking responsibility for individual divisions, and you building the structure of the project (data manipulation, data banking, deliverable creation). Without version control, this is the result:
 
 </br>
 
@@ -2841,7 +2850,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
     * Different teams can work in parallel on their pieces
     * Mitigate the threat of "breaking everything", reduce time spent retrofitting
 >- <b>An Analogy</b>
-    * Kellogg's engineers might make changes to the Rice Krispies formula to make them sweeter or crunchier...but the result will always be a dry solid stored in a rectangular box.
+    * Kellogg's engineers might make changes to the Rice Krispies formula to make them sweeter or crunchier...but the result will always be a dry solid in a rectangular box.
     * Partners downstream (e.g. retailers) can make improvements to their processes (e.g. inventory management, automated checkouts) with confidence that these improvements will always be compatible with changes from Kellogg's
 
 --- bg:#FFFFFF;
@@ -2888,8 +2897,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
     - Don't change with your clients. Change before them.
 >- <b>This Could be Really Fun</b>
     - You can do [this](http://www.brookings.edu/research/reports2/2014/11/06-mapping-freight-tomer-kane#%2EVFuHgBW0-Dq%2E)
-    - And [this](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html?pagewanted=all&_r=0)
-    - And even [this](http://atlas.cid.harvard.edu/)
+    - And [this](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html?pagewanted=all&_r=0) and even [this](http://atlas.cid.harvard.edu/)
 
 --- bg:#FFFFFF;
 
@@ -2907,7 +2915,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
 
 </br>
 
-<center>Umm thanks? You can click through the slides on [here](http://jaylamb20.github.io/MSAE_Alumni_2015/index.html#1) or view the raw code [here](https://github.com/JayLamb20/MSAE_Alumni_2015).
+<center>Umm thanks? You can click through the slides [here](http://jaylamb20.github.io/MSAE_Alumni_2015/index.html#1) or view the raw code [here](https://github.com/JayLamb20/MSAE_Alumni_2015).
 
 </br>
 
@@ -2919,7 +2927,7 @@ All software have strengths and weaknesses. You might, for example, want to do d
     
 </br>
     
-<center><b>Want to Work with me at IHS? Or Pay My Team to Forecast Stuff?</b></center>
+<center><b>Want to Work with me at IHS? Or pay my team to forecast stuff?</b></center>
 
 <br>
 
